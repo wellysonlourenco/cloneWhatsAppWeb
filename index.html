@@ -8,21 +8,33 @@
     <link rel="shortcut icon" href="assets/images/favicon-64x64.ico" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    
 </head>
 <body>
     
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4 px-0" id="panel-left">
-                <header class="d-flex">
-                    <img src="assets/images/contact.svg" alt="avatar" srcset="">
-                    <span class="material-icons md-dark md-inactive">face</span>
-
+            <div class="col-md-3 px-0 " id="panel-left">
+                <header class="d-flex ">
+                    <img src="assets/images/perfil/pp.jfif" class="profile-photo rounded-circle  mr-auto" alt="avatar">
+                    
+                    <a href="#" title="status" data-toggle="tooltip">
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </a>
+    
+                    <a href="#">
+                        <i class="bi bi-chat-left-text"></i>
+                    </a>
+                    
+                    <a href="#">
+                        <i class="bi bi-three-dots"></i>     
+                    </a>
 
                 </header>
 
-                <div id="search"></div>
+                <div id="search">
+                    <input type="text" name="search" id="search" class="form-control" placeholder="Pesquisar ou começar uma nova conversa">
+                </div>
 
                 <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
@@ -59,7 +71,7 @@
 
 
 
-            <div class="col-md-8 px-0 d-flex flex-column">
+            <div class="col-md-9 px-0 d-flex flex-column">
                
                 <header class="d-flex align-items-center">
                     <img src="assets/images/contact.svg" alt="Avatar" >
